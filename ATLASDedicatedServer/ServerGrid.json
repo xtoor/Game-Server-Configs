@@ -1,5 +1,5 @@
 {
-  "BaseServerArgs": "%MapName%%GridLocation%?MaxPlayers=20?ReservedPlayerSlots=10?QueryPort=%QUERYPORT%?Port=%PORT%?SeamlessIP=%MACHINEIP%?MapPlayerLocation=true%AdditionalMapArguements% -log -server -culture=en -NoCrashDialog -NoBattlEye",
+  "BaseServerArgs": "%MapName%%GridLocation%?MaxPlayers=20?ReservedPlayerSlots=10?QueryPort=%QUERYPORT%?Port=%PORT%?SeamlessIP=%MACHINEIP%?MapPlayerLocation=true%AdditionalMapArguements% -log -server -culture=en -useallavailablecores -lowmemory -usecache -NoCrashDialog -NoBattlEye",
   "gridSize": 1400000.0,
   "MetaWorldURL": "http://atlasdedicated.com/xkvLAefEmYagICAfkDqknUIceSobwBma/ServerGrid",
   "WorldFriendlyName": "ATLAS LGSM Default",
@@ -12,7 +12,7 @@
   "totalGridsY": 1,
   "bUseUTCTime": true,
   "columnUTCOffset": 0.0,
-  "Day0": "2019-02-10 17:05:21",
+  "Day0": "2018-02-10 17:05:21",
   "globalTransitionMinZ": 0.0,
   "AdditionalCmdLineParams": "",
   "OverrideShooterGameModeDefaultGameIni": {},
